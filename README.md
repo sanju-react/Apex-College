@@ -1,70 +1,84 @@
-# Getting Started with Create React App
+# Apex College Management Website
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+![Apex College Logo](link-to-logo-image) <!-- Replace with the link to your college logo image -->
 
-## Available Scripts
+Welcome to the Apex College Management Website repository! This comprehensive platform is designed and developed for the minor project at Apex College. Leveraging the MERN stack (MongoDB, Express.js, React.js, Node.js) and Firebase, this website offers three essential modules: Student, Faculty, and Admin. The project spanned three months and involved contributions from two collaborators, ReactRocket and Sanju (sanju-react).
 
-In the project directory, you can run:
+## Project Overview
 
-### `npm start`
+### Features
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- **Student Module:**
+  - View personal information.
+  - Access course materials and assignments.
+  - Check grades and academic records.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- **Faculty Module:**
+  - Manage course materials and assignments.
+  - Grade students and update academic records.
+  - Communicate with students.
 
-### `npm test`
+- **Admin Module:**
+  - Manage student and faculty profiles.
+  - Monitor overall academic performance.
+  - Generate reports and analytics.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Technologies Used
 
-### `npm run build`
+- **Frontend:**
+  - React.js
+  - Tailwind CSS
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- **Backend:**
+  - Node.js
+  - Express.js
+  - MongoDB
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- **Database:**
+  - Firebase
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Contributors
 
-### `npm run eject`
+- **ReactRocket:** Lead frontend developer and project coordinator.
+- **Sanju (sanju-react):** Backend developer and database management.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Setup Instructions
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+1. Clone the repository:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+```bash
+git clone https://github.com/your-username/apex-college-management.git
+cd apex-college-management
+```
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+2. Install dependencies:
 
-## Learn More
+```bash
+cd client && npm install
+cd ../server && npm install
+```
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+3. Configure Firebase:
+   - Create a Firebase project and obtain the necessary credentials.
+   - Update the Firebase configuration in the appropriate files.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+4. Run the application:
 
-### Code Splitting
+```bash
+cd client && npm start
+cd ../server && npm start
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+Visit `http://localhost:3000` to explore the Apex College Management Website.
 
-### Analyzing the Bundle Size
+## Project Timeline
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+- **Start Date:** [Specify Start Date]
+- **End Date:** [Specify End Date]
 
-### Making a Progressive Web App
+## Acknowledgments
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+We extend our gratitude to Apex College for providing the opportunity to work on this meaningful project and gain practical experience in the field of web development.
 
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+**Designed and Developed by ReactRocket and Sanju (sanju-react)**
+Copyright © 2024 Apex College Management Website
